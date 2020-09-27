@@ -19,5 +19,5 @@ to represent the 3 classes of flowers in this dataset.
     Iris Virginica
     
 ## How KNN works:
-as any classification algorithm it takes input some data and use the data to determine which class (category) this piece of data belongs to.
-The idea behind a KNN classifier is pretty simple: Given a training set X∈ℝN×D and y∈ℤN, we predict the label of a new point x∈ℝD as the label of the majority of its "K nearest neighbor" (hence the name KNN) by some distance measure (e.g the Euclidean distance). Here, N is the number of data points in the dataset, and D is the dimensionality of the data.
+As any classification algorithm it takes input some data and use the data to determine which class (category) this piece of data belongs to.
+The idea: Given a training set X∈ℝN×D and y∈ℤN, we predict the label of a new point x∈ℝD as the label of the majority of its "K nearest neighbor" (hence the name KNN) by some distance measure (e.g the Euclidean distance). Here, N is the number of data points in the dataset, and D is the dimensionality of the data.
